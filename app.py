@@ -222,7 +222,7 @@ Die effiziente Handelszahl ist $k = \max\{ j : b_{(j)} \ge s_{(j)} \}$, die grö
 **McAfee.** $p_0 = \tfrac12 (b_{(k+1)} + s_{(k+1)})$, falls beide Ränge existieren. Gilt $s_{(k)} \le p_0 \le b_{(k)}$: Die Paare $1..k$ handeln zum Preis $p_0$ (Käufer zahlen $p_0$, Verkäufer erhalten $p_0$).
 Sonst: Die Paare $1..k-1$ handeln; Käufer zahlen $b_{(k)}$, Verkäufer erhalten $s_{(k)}$; die Börse behält $(k-1)(b_{(k)} - s_{(k)})$. Der Verlust ist im zweiten Fall genau $b_{(k)} - s_{(k)}$, das gestrichene Paar, und damit höchstens $W^*/k$.
 
-**Warum wahrhaftig.** Der Preis, den ein handelnder Käufer zahlt, hängt nur von $b_{(k)}$, $b_{(k+1)}$, $s_{(k)}$, $s_{(k+1)}$ und nicht von seinem eigenen Gebot ab, solange er handelt; sein Gebot entscheidet nur, ob er handelt, und er handelt genau dann, wenn sein Wert über dem Preis liegt (kritischer Wert). Dasselbe gilt für Verkäufer. Das ist eine **dominante Strategie**, keine Bayes-Nash-Aussage.
+**Warum wahrhaftig.** Der Preis, den ein handelnder Käufer zahlt, hängt nur von $b_{(k)}$, $b_{(k+1)}$, $s_{(k)}$, $s_{(k+1)}$ und nicht von seinem eigenen Gebot ab, solange er handelt (der $k$-te Käufer setzt den Preis, handelt aber im reduzierten Fall nicht); sein Gebot entscheidet nur, ob er handelt, und er handelt genau dann, wenn sein Wert über dem Preis liegt (kritischer Wert). Dasselbe gilt für Verkäufer. Das ist eine **dominante Strategie**, keine Bayes-Nash-Aussage.
 Die Demo prüft es durch Einzelabweichungen auf einem Raster, nicht durch einen Beweis.
 
 **VCG.** Alle $k$ Paare handeln; ein Käufer zahlt $\max(s_{(k)}, b_{(k+1)})$, ein Verkäufer erhält $\min(b_{(k)}, s_{(k+1)})$; die Börse zahlt zu: $k\,(\min(b_{(k)}, s_{(k+1)}) - \max(s_{(k)}, b_{(k+1)})) \ge 0$.
