@@ -1,7 +1,6 @@
 # Doppelauktion mit Handelsreduktion – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-doppelauktion-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-doppelauktion-demo.streamlit.app/)**
 
 Viertes Stück der Methodenreihe **Marktmechanismen** in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“. Ein Mechanismus macht aus Geboten, Budgets oder Überzeugungen Preise und eine Zuteilung; die Reihe prüft ihn an Effizienz, Anreizen, Budgetausgleich und Erlös und rechnet ihn, wo es geht, als Programm. Nach dem [Fisher-Markt](https://github.com/sebastian-hanisch/fisher-markt-demo), der [Positionsauktion](https://github.com/sebastian-hanisch/positionsauktion-demo) und dem [Pacing-Gleichgewicht](https://github.com/sebastian-hanisch/pacing-gleichgewicht-demo) kommt hier erstmals ein Markt mit **zwei Seiten**, die beide private Information haben. Er setzt die Vorgängerdemo [`myerson-satterthwaite-demo`](https://github.com/sebastian-hanisch/myerson-satterthwaite-demo) fort (ein Käufer, ein Verkäufer; „doppelte Auktion: eigenes Thema“). Vehikel: **eine Slot-Börse**, auf der Spediteure Ladeslots kaufen und Betriebe sie verkaufen.
 
@@ -133,4 +132,4 @@ Gebaut mit Streamlit, Plotly und NumPy.
 
 ---
 
-Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zu den Demos: [Interaktive Demos](https://sebastianhanisch.net/demos.html).
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Marktmechanismen: von Preisen bis Marktmachern](https://sebastianhanisch.net/konzepte-marktmechanismen.html).
